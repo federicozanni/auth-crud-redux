@@ -11,7 +11,7 @@ Primero instalamos todas las dependencias con el siguiente comando:
 npm install
 ```
 
-Luego, ejecutamos el comando para levantar el fake rest API donde se almacenan los productos:
+Luego, dentro de la carpeta del proyecto, ejecutamos el comando para levantar la fake rest API, donde se almacenan los productos:
 
 ```
 json-server db.json --port 4000
