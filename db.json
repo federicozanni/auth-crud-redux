@@ -1,0 +1,46 @@
+{
+  "productos": [
+    {
+      "nombre": "pera",
+      "precio": "24",
+      "usuario": {
+        "correo": "fede@fede.com",
+        "password": "123456"
+      },
+      "id": 1
+    },
+    {
+      "nombre": "anana",
+      "precio": 20,
+      "usuario": {
+        "nombre": "test2",
+        "correo": "test2@test.com",
+        "password": "1234567",
+        "id": 3
+      },
+      "id": 2
+    },
+    {
+      "nombre": "manzana",
+      "precio": "25",
+      "usuario": {
+        "correo": "fede5@fede.com",
+        "password": "1234567"
+      },
+      "id": 4
+    },
+    {
+      "nombre": "mandarina",
+      "precio": "25",
+      "usuario": {
+        "rol": "USER_ROLE",
+        "estado": true,
+        "google": false,
+        "nombre": "fede",
+        "correo": "fede42@gmail.com",
+        "uid": "613c17a60201c50015d5569c"
+      },
+      "id": 6
+    }
+  ]
+}
