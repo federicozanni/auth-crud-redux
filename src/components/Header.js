@@ -16,7 +16,7 @@ const Header = () => {
       <div  className="container">
         <h1>
           <Link to={'/'} className="text-light">
-            Crud Redux
+            Mercado
           </Link>
         </h1>
       </div>
