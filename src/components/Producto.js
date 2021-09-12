@@ -51,7 +51,7 @@ const Producto = ({producto, usuario}) => {
         
         {
           ( estado === 'authenticated') &&
-          (usuarios.correo === correo ) &&
+          ( usuarios.correo === correo ) &&
           <div>
             <button 
               className="btn btn-primary mr-2"

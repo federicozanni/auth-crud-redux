@@ -2,7 +2,7 @@
   "productos": [
     {
       "nombre": "pera",
-      "precio": "25",
+      "precio": "24",
       "usuario": {
         "correo": "fede@fede.com",
         "password": "123456"

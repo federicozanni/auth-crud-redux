@@ -8,8 +8,9 @@ const store = createStore(
   compose(
     applyMiddleware(thunk),
 
-    window.__REDUX_DEVTOOLS_EXTENSION__ &&
-    window.__REDUX_DEVTOOLS_EXTENSION__()
+    typeof window === 'object' &&
+            typeof window.__REDUX_DEVTOOLS_EXTENSION__ !== 'undefined' &&
+                window.__REDUX_DEVTOOLS_EXTENSION__()
   )
 );
  
